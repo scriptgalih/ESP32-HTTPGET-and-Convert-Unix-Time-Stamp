@@ -12,10 +12,10 @@
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 //Define SSID AND PASSWORD AP
-//const char* ssid     = "Mokhamad Mustaqim";
-//const char* password = "taqimlemu20-";
-const char* ssid     = "WismaDH_01";
-const char* password = "wismaDH01";
+const char* ssid     = "MokhamadMustaqim";
+const char* password = "mustaqim2011";
+//const char* ssid     = "WismaDH_01";
+//const char* password = "wismaDH01";
 /*
  * END ALL CONFIGURATION
  * */

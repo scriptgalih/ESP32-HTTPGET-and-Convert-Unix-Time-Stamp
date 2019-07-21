@@ -7,7 +7,8 @@ void kirim_data(int pulse_nya){
   HTTPClient http;
 //  Serial.print("[HTTP] begin...\n");
 //  Serial.print(unix_);
-  
+
+//  sprintf(buffer, "https://jantung.masgendut.com/emit-pulse?deviceId=%d&pulse=%d&timestamp=%i000", deviceId, random(75,80), unix_);
   sprintf(buffer, "https://jantung.masgendut.com/emit-pulse?deviceId=%d&pulse=%d&timestamp=%i000", deviceId, pulse_nya, unix_);
   //http.begin("https://jantung.masgendut.com/emit-pulse?deviceId=1&pulse=78&timestamp=1561732852"); //HTTP
   http.begin(buffer);

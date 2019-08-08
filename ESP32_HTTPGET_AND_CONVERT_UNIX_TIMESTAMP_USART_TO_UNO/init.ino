@@ -2,6 +2,7 @@ void initialization(){
   Serial.begin(115200);
   Serial.print("Connecting to ");
   Serial.println(ssid);
+  delay(1000);
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
